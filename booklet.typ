@@ -8,8 +8,12 @@
 
 #show heading: it => {
   set text(weight: "semibold")
-  pad(top: 0.5em ,bottom: 0.5em, it)
+  pad(top: 0.5em, bottom: 91%, it)
 }
+
+= It really bugs me when...
+
+= You’ll have to forgive me when I...
 
 #pagebreak()
 #stack(
@@ -42,8 +46,12 @@
 )
 #pagebreak()
 
-= Introduction
+= My superpower is...
 
-This is a chance for you to write the book on working with you...
-for dummies. Tell us what you're like, what your yucks and yums are,
-and how we can best work with you.
+= I feel uncomfortable in situations where...
+
+#pagebreak()
+
+= I do my best work when...
+
+= The thing I love most in a collaborator is...
