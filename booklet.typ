@@ -1,3 +1,5 @@
+#let name = sys.inputs.at("name", default: "Oldmate")
+
 #set page(paper: "a4")
 
 #set text(
@@ -13,7 +15,7 @@
 
 = It really bugs me when...
 
-= You’ll have to forgive me when I...
+= You'll have to forgive me when I...
 
 #pagebreak()
 #stack(
@@ -36,7 +38,7 @@
               size: 70pt,
               fill: white,
               weight: "black",
-              "Ben"
+              name
             )
           )
         )
