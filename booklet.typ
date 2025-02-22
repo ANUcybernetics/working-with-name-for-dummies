@@ -34,11 +34,14 @@
           center,
           rotate(
             -15deg,
-            text(
-              size: 70pt,
-              fill: white,
-              weight: "black",
-              name
+            pad(
+              left: -1em,
+              text(
+                size: 70pt,
+                fill: white,
+                weight: "black",
+                name
+              )
             )
           )
         )
