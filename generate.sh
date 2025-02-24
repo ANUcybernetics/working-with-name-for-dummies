@@ -1,7 +1,34 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-readonly NAMES=("Ben" "Jess" "Matt")
+readonly NAMES=(
+    "Andrew"
+    "Aiden"
+    "Alex"
+    "Ash"
+    "Ben "
+    "Danni"
+    "Eddie"
+    "Ella"
+    "Ellen"
+    "Chris"
+    "Hannah"
+    "Mai"
+    "Matt"
+    "Jess"
+    "Josh"
+    "Janelle"
+    "Katherine"
+    "Paul"
+    "Safiya"
+    "Sarah"
+    "Sharon"
+    "Sherice"
+    "Sungyeon"
+    "Thomas"
+    "Vivienne"
+    "Lewis"
+)
 readonly OUTPUT_DIR="output"
 
 mkdir -p "${OUTPUT_DIR}"
