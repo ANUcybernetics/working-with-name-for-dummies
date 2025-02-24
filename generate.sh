@@ -25,7 +25,7 @@ readonly NAMES=(
     "Sharon"
     "Sherice"
     "Sungyeon"
-    "Thomas"
+    "Tom"
     "Vivienne"
     "Lewis"
 )
