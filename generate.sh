@@ -7,6 +7,7 @@ readonly NAMES=(
     "Ash"
     "Ben"
     "Chris"
+    "Cole"
     "Danni"
     "Eddie"
     "Ella"
