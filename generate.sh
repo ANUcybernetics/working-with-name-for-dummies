@@ -2,7 +2,6 @@
 set -euo pipefail
 
 readonly NAMES=(
-    "Aiden"
     "Alex"
     "Andrew"
     "Ash"
@@ -15,6 +14,7 @@ readonly NAMES=(
     "Hannah"
     "Janelle"
     "Jess"
+    "Jessamy"
     "Josh"
     "Katherine"
     "Lewis"
