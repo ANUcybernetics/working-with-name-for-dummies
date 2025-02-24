@@ -13,10 +13,6 @@
   pad(top: 0.5em, bottom: 91%, it)
 }
 
-= It really bugs me when...
-
-= You'll have to forgive me when I...
-
 #let dummies(name) = {
   pagebreak()
   stack(
@@ -52,6 +48,10 @@
   )
   pagebreak()
 }
+
+= It really bugs me when...
+
+= You'll have to forgive me when I...
 
 #dummies(name)
 
