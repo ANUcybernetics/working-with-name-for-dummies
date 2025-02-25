@@ -33,7 +33,7 @@
             rotate(
               -15deg,
               pad(
-                left: -1em,
+                left: -3em,
                 text(
                   size: 90pt,
                   fill: white,
