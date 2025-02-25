@@ -32,8 +32,11 @@ readonly NAMES=(
 )
 readonly OUTPUT_DIR="output"
 
+rm -rf "${OUTPUT_DIR}"
 mkdir -p "${OUTPUT_DIR}"
 
 for name in "${NAMES[@]}"; do
     typst compile --input "name=${name}" booklet.typ "${OUTPUT_DIR}/${name}.pdf"
 done
+
+pdfjam --nup 2x1 --landscape "${OUTPUT_DIR}"/*.pdf --outfile output.pdf
