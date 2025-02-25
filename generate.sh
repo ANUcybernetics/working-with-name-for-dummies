@@ -35,8 +35,13 @@ readonly OUTPUT_DIR="output"
 rm -rf "${OUTPUT_DIR}"
 mkdir -p "${OUTPUT_DIR}"
 
+total=${#NAMES[@]}
+count=0
 for name in "${NAMES[@]}"; do
+    count=$((count + 1))
+    echo -ne "Processing: ${count}/${total} (${name})...\r"
     typst compile --input "name=${name}" booklet.typ "${OUTPUT_DIR}/${name}.pdf"
 done
+echo -e "\nAll files compiled successfully."
 
 pdfjam --nup 2x1 --landscape "${OUTPUT_DIR}"/*.pdf --outfile output.pdf
