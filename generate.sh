@@ -42,6 +42,6 @@ for name in "${NAMES[@]}"; do
     echo -ne "Processing: ${count}/${total} (${name})...\r"
     typst compile --input "name=${name}" booklet.typ "${OUTPUT_DIR}/${name}.pdf"
 done
-echo -e "\nAll files compiled successfully."
+echo -e "\nAll booklets created, producing output.pdf..."
 
 pdfjam --nup 2x1 --landscape "${OUTPUT_DIR}"/*.pdf --outfile output.pdf
