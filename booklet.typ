@@ -15,6 +15,7 @@
 
 #let dummies(name) = {
   pagebreak()
+  set page(margin: 0.5cm)
   stack(
     dir: ltr,
     spacing: -100%,
@@ -26,7 +27,7 @@
     [
       #box(
         width: 100%,
-        pad(top: 76%,
+        pad(top: 6cm,
           align(
             center,
             rotate(
@@ -34,7 +35,7 @@
               pad(
                 left: -1em,
                 text(
-                  size: 70pt,
+                  size: 90pt,
                   fill: white,
                   weight: "black",
                   name
